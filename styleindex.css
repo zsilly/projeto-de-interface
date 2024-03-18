@@ -1,0 +1,16 @@
+header {
+  text-align: center;
+  color: cadetblue;
+}
+
+nav {
+  text-align: center;
+}
+body {
+  background-color: pink;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
