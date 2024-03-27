@@ -3,28 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marcação de Encontros - JdC</title>
-  </head>
-  <body>
-    <header><h1>Marcação de Encontros</h1></header>
-    <main>
-      <form action="" method="post"></form>
-      <label for="data">Selecione a data:</label>
-      <input type="date" id="data" name="data" />
-      <br /><br />
-      <label for="appt">Selecione o horário</label>
-      <input type="time" id="appt" name="appt" />
-      <br /><br />
-      <input
-        type="button"
-        onclick="alert('Seu pedido foi recebido, caso haja presença suficiente ele será autorizado, você já poder retornar a página inicial.')"
-        value="Concluir"
-      /><br /><br />
+    <link rel="stylesheet" href="stylemarcacao.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/png" href="icon marcacao.png">
+    <title>Marcação de Encontros - Quickplay</title>
 
-      <a href="index.html">Voltar para a página inicial</a>
-    </main>
-    <footer>
-      <p>&copy;<em>2024 Jogos dos Crias. Todos os direitos reservados.</em></p>
-    </footer>
-  </body>
-</html>
+    <body>
+
+      <div class="wrapper">
+        <form action="">
+          <h1>Fale com a gente</h1>
+          <div class="input-box">
+            <input type="date" placeholder="Data" required>
+            <i class='bx bxs-calendar' ></i>
+          </div>
+          <div class="input-box">
+            <input type="time" placeholder="Horário" required>
+            <i class='bx bxs-time-five' ></i>
+          </div>
+  
+          <button type="submit" class="btn">Concluir</button>
+  
+          <div class="register-link">
+            <p><a href="index.html">Voltar a pagina principal</a></p>
+          </div>
+        </form>
+      </div>
+    </body>

@@ -3,40 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cadastro - Jogos dos Crias</title>
+    <title>Cadastro - Quickplay</title>
+    <link rel="stylesheet" href="stylecadastro.css">
+    <link rel="shortcut icon" type="image/png" href="cadastro icon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
+
+
   <body>
-    <header>
-      <h1>Cadastre-se na Jogos dos Crias</h1>
-    </header>
-    <main>
-      <p>É novo aqui? Faz seu cadastro e comece a interagir!</p>
-      <form action="cadastro_sucesso.html" method="post">
-        <label for="name">Nome</label><br />
-        <input type="text" id="name" name="name" required /><br />
-        <label for="username">nickname</label><br />
-        <input type="username" id="username" name="username" required /><br />
-        <label for="email">Email</label><br />
-        <input type="email" id="email" name="email" required /><br />
-        <label for="password">Senha</label><br />
-        <input type="password" id="password" name="password" required /><br />
-        <label for="confirm_password">Confirme a senha</label><br />
-        <input
-          type="password"
-          id="confirm_password"
-          name="confirm_password"
-          required
-        /><br /><br />
-        <input type="submit" value="Cadastrar" />
+
+    <div class="wrapper">
+      <form action="">
+        <h1>Cadastre-se</h1>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input type="text" placeholder="Nome Completo" required>
+            <i class='bx bxs-user' ></i>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Usuário" required>
+            <i class='bx bxs-user' ></i>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input type="email" placeholder="Email" required>
+            <i class='bx bxs-envelope' ></i>
+          </div>
+          <div class="input-field">
+            <input type="number" placeholder="Telefone" required>
+            <i class='bx bxs-phone' ></i>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input type="password" placeholder="Senha" required>
+            <i class='bx bxs-lock-alt' ></i>
+          </div>
+          <div class="input-field">
+            <input type="password" placeholder="Confirme" required>
+            <i class='bx bxs-lock-alt' ></i>
+          </div>
+        </div>
+
+        <label><input type="checkbox">Eu declaro que todas as informações são verdadeiras</label>
+
+        <button type="submit" class="btn">Registrar</button>
       </form>
-      <br />
-      <p>
-        *Seu nickname é como seu nome aparecerá para outros usuários do site
-      </p>
-      <br />
-    </main>
-    <footer>
-      <p>&copy;<em>2024 Jogos dos Crias. Todos os direitos reservados.</em></p>
-    </footer>
+    </div>
   </body>
-</html>

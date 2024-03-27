@@ -3,18 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="stylepresenca.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="shortcut icon" type="image/png" href="icon presenca.png">
   <title>Lista de Presença</title>
 </head>
+
 <body>
-  <header><h1>Confirme aqui sua presença</h1></header>
-  <p>Informe seu nome e username para validar sua presença no próximo encontro</P>
-  <form action="" method="post">
-    <label for="nome">Nome</label><br>
-    <input type="text" id="nome" name="nome"><br><br>
-    <label for="username">Username</label><br>
-    <input type="text" id="username" name="username"><br><br>
-    <input type="button" onclick="alert('Presença confirmada! Você pode voltar para a página inicial.')" value="confirmar presença"><br><br>
-    <a href="index.html">Voltar a página inicial</a>
-  </form>
+
+  <div class="wrapper">
+    <form action="">
+      <h1>Confirme sua presença</h1>
+      <div class="input-box">
+        <input type="text" placeholder="Nome Completo" required>
+        <i class='bx bxs-user-pin' ></i>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Usuário" required>
+        <i class='bx bx-user-pin' ></i>
+      </div>
+
+      <button type="submit" class="btn">Concluir</button>
+
+      <div class="register-link">
+        <p><a href="index.html">Voltar a pagina principal</a></p>
+      </div>
+    </form>
+  </div>
 </body>
-</html>
