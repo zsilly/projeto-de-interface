@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylequiz.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/png" href="receipt-solid-24.png">
+    <title>Quiz Quickplay</title>
+  </head>
+
+  <body>
+
+    <main class="main">
+        <header class="header">
+            <a class="logo">Quiz Quickplay.</a>
+
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+            </nav>
+        </header>
+
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Quickplay Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Sobre Jogos</span>
+                        <span class="header-score">Score: 0 / 5</span>
+                    </div>
+
+                    <h2 class="questions-text">Qual Trailer de game mais visto da historia?</h2>
+
+                    <div class="option-list">
+                        <!-- <div class="option">
+                            <span>A. Grand Theft Auto 6</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Grand Theft Auto 5</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Subway Surf</span>
+                        </div>
+                        <div class="option">
+                            <span>D. Minecraft</span>
+                        </div> -->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="questions-total">1 de 5 Questões</span>
+                        <button class="next-btn">Próxima</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Resultado</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Seu resultado 0 de 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Repetir</button>
+                        <button class="goHome-btn">Pagina Inicial</button>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Sobre o Quiz</h1>
+                    <p>Teste seus conhecimentos sobre jogos com este quiz empolgante! Desafie 
+                    sua memória e habilidades enquanto responde a perguntas intrigantes sobre 
+                    os universos dos jogos. Desde clássicos atemporais até os mais recentes lançamentos</p>
+                    <button class="start-btn">Começar</button>
+                </div>
+            </section>
+        </div> 
+    </main>
+
+    <div class="popup-info">
+        <h2>Guia Quiz</h2>
+        <span class="info">1. São perguntas sobre o universo dos games</span>
+        <span class="info">2. Cada pergunta tem 4 alternativas</span>
+        <span class="info">3. O quiz é composto por 5 perguntas basicas</span>
+        <span class="info">4. As perguntas podem ser tanto sobre jogos ou curiosidades</span>
+        <span class="info">5. No final será mostrado sua taxa de acertos</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Sair do quiz</button>
+            <a href="#" class="info-btn continue-btn">Continuar</a>
+        </div>
+    </div>
+
+
+    <script src="questoes.js"></script>
+    <script src="script2.js"></script>
+  </body>
