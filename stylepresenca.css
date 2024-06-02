@@ -116,3 +116,11 @@ body {
     text-decoration: underline;
 }
 
+.telaInicial {
+    position: relative;
+    justify-content: baseline;
+    left: 15%;
+    top: 20px;
+    
+}
+

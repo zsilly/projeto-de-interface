@@ -116,3 +116,14 @@ body {
     text-decoration: underline;
 }
 
+.textoMarcacao {
+    padding: 5%;
+    text-align: left;
+}
+.telaInicial {
+    position: relative;
+    justify-content: baseline;
+    left: 15%;
+    top: 18px;
+    
+}
